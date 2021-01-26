@@ -6,22 +6,22 @@ import './index.css';
 function App(props) {
   const raccoons = {
     name: 'Russiaville Raccoons',
-    logoSrc: "/src/assets/images/raccoon.png"
+    logoSrc: "/images/raccoon.png"
   }
 
   const squirrels = {
     name: 'Sheridan Squirrels',
-    logoSrc: <img src={"./assets/images/squirrel.png"} alt="" />
+    logoSrc: "/images/squirrel.png"
   }
 
   const bunnies = {
     name: 'Burlington Bunnies',
-    logoSrc: './assets/images/bunny.png'
+    logoSrc: '/images/bunny.png'
   }
 
   const hounds = {
     name: 'Hammond Hounds',
-    logoSrc: './assets/images/hound.png'
+    logoSrc: '/images/hound.png'
   }
 
   return (
